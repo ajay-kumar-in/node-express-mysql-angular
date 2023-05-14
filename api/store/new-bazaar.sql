@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 14, 2023 at 06:32 AM
+-- Generation Time: May 14, 2023 at 07:04 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -96,14 +96,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstName`, `lastName`, `mobile`, `email`, `password`, `address`, `createdAt`, `updatedAt`) VALUES
 (1, 'ajay', 'kumar', 2147483647, 'ajay@ajay.com', '$2b$10$zfnu42ggx7QN7kWPtHglCuh644zIYS0jN3t4pTk2clDNG7dlhdVSu', 'addressssss', '2022-01-16 13:09:05', '2022-01-16 13:09:05'),
-(11, 'ajay', 'kumar', 2147483647, 'ajaykumarchaurasiya9@gmail.com', '$2b$10$ziVxeFzZ8smZTbi.lh1OL.eDym0u/Xc4UnoAZ/ukfDMj97UxxpY/y', 'addressssss', '2022-01-17 10:08:09', '2022-01-17 10:08:09'),
-(13, 'ajay', 'kumar', 2147483647, 'ajaykumarchaurasiya92222@gmail.com', '$2b$10$MzWR9n6sGypT2qsdwjAok.TaeLUPC8pPCIqbvY2Ziqk7K8HjPvfIi', 'addressssss', '2022-01-18 05:59:22', '2022-01-18 05:59:22'),
-(15, 'ajay', 'kumar', 2147483647, 'ajaykumarchaurasiya922227@gmail.com', '$2b$10$bLKd3VqxA7qx3waFOptt3.G8lYReSbCGRInaIUZRvwoq/Uw48rfC2', 'addressssss', '2022-01-19 07:06:43', '2022-01-19 07:06:43'),
-(16, 'qqqqqqq', 'wwwwwwwwww', 2147483647, 'ajaykumarchaurasiya', '$2b$10$9Vh7bifb83uBDr9rBITpz.CJugUsTFC2PQZ5Vg9qvYAyuOdct8bvu', '', '2022-03-09 03:00:52', '2022-03-09 03:00:52'),
-(25, 'qqqqqqq', 'wwwwwwwwww', 2147483647, 'ajaykumarchaurasiya@gmail.com', '$2b$10$Q5.ge8RDAd/MZSC.n8kwAOEsUDlSvTWZGgIiQ/ifjE.lCvODO4HqG', '', '2022-03-09 03:14:21', '2022-03-09 03:14:21'),
-(26, 'ajay', 'kumar', 2147483647, 'ajayemail', '$2b$10$3TcMoWij0W1iyK9fyAGsi.fZHHBUA/I2VeYUFhML/zFeNqz.FM9Nm', 'addressssss', '2022-03-09 03:19:34', '2022-03-09 03:19:34'),
-(30, 'ajay', 'kumar', 2147483647, 'ajayemai1l', '$2b$10$/Kdnft0AlyVXkDSgJD0qbeEtIikJ0M4/prr2RhpZP1bNXUXX/v5Zy', NULL, '2022-03-09 03:27:38', '2022-03-09 03:27:38'),
-(33, 'ajay', 'kumar', 2147483647, 'ajayemai12l', '$2b$10$gXzja..2YKj/vtgYn8O0IOrDg629WnNgwpRCsbIXmG29CEBXYjxr6', NULL, '2022-03-09 03:30:18', '2022-03-09 03:30:18');
+(35, 'Ajay', 'Kumar', 2147483647, 'ajay@gmail.com', '$2b$10$OSpXGmXSHEa5LU8sh878Cum9rUzySbJ.e8KJMv4hrLrz3ItxYSbD.', NULL, '2023-05-14 04:59:00', '2023-05-14 04:59:00');
 
 --
 -- Indexes for dumped tables
@@ -138,7 +131,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
